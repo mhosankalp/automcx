@@ -73,7 +73,11 @@ def upload_file():
                 file.save(file_path)
                 # prepare headers for http request
                 content_type = 'image/jpeg'
-                headers = {'content-type': content_type}
+                headers = {'content-type': content_type,
+                            'id':'automc',
+                            'Authorization':'automc_pc_kdhfjdhfjhskhgdsgjd',
+                            'flag':'Y',
+                            'email':'sample1@customer.com'}
                 # encode image as jpeg
                 img = cv2.imread(file_path)
                 _, img_encoded = cv2.imencode('.jpg', img)
