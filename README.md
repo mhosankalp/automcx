@@ -16,6 +16,10 @@ Also note this app has test integration with stripe for payment purpose
 2. The api server should be up and running
 For details on how to run the api please refer to https://github.com/mhosankalp/automc_api
 
+The api at https://github.com/mhosankalp/automc_api will also check for the valid authentication. Only the valid users will be able to request an api. As of now the authentication is valid only for this app
+
+But you can add users by modifying the adduser.py and executing it. The adduser.py is present at https://github.com/mhosankalp/automc_api
+
 
 ### Installing
 
