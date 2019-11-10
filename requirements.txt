@@ -1,4 +1,4 @@
 Flask
-stript
+stripe
 opencv-python
 gevent
