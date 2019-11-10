@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block body %}
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-wide">AUTOMC</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <p> Error!!!!! </p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-center w3-dark-grey" style="padding:250px 16px">
+    <h3>Message</h3>
+  	<form action="/back" method="post">
+      <p>
+      	Error Message: {{ emessage }}
+      </p>
+      <input type="submit" value="Back">
+   	</form>
+   </body>
+</div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:50px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Toronto, CA</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <br>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+
+
+{% endblock %}
+{% block scripts %}
+<script src="../static/js/main.js"></script>
+{% endblock %}

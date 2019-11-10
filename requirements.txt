@@ -1,0 +1,4 @@
+Flask
+stript
+opencv-python
+gevent
