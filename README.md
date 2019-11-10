@@ -53,7 +53,7 @@ f)Home Screen - File Chosen
 
 ![Home Screen - File Chosen](https://github.com/mhosankalp/automcx/blob/master/media/image6.png)
 
-g)Home Screen - Api is call from 127.0.0.1:5001 and prediction is made
+g)Home Screen - Api is call from http://127.0.0.1:5001/api/recognize_image and prediction is made
 
 ![Home Screen - File Chosen](https://github.com/mhosankalp/automcx/blob/master/media/image7.png)
 
